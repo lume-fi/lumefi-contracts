@@ -19,12 +19,12 @@ We're thrilled to announce the official launch of **LumeFi**, a next-generation 
 
 **Duration:** March 20–April 4, 2025 (15 days)
 
-| Period          | LUME Rewards       | Withdrawal Fee |
-|-----------------|--------------------|----------------|
-| Days 1–5        | 600,000 LUME       | 3%             |
-| Days 6–10       | 400,000 LUME       | 2%             |
-| Days 11–15      | 200,000 LUME       | 1%             |
-| After April 4   | No additional rewards | No fee      |
+| Period          | LUME Rewards          | Withdrawal Fee |
+|-----------------|-----------------------|----------------|
+| Days 1–5        | 120,000 LUME          | 3%             |
+| Days 6–10       | 80,000 LUME           | 2%             |
+| Days 11–15      | 40,000 LUME           | 1%             |
+| After April 4   | No additional rewards | No fee         |
 
 Withdrawal fees collected during Genesis will directly fund the **Treasury**, supporting LUME’s peg stability.
 
