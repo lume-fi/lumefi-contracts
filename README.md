@@ -59,6 +59,14 @@ All CRO collected from fees reinforce the **Treasury**, ensuring LUME maintains 
 - Stake NOVA continuously ≥ 15 days (60 epochs): **10% discount**
 - Stake NOVA continuously ≥ 45 days (180 epochs): **20% discount**
 - Stake NOVA continuously ≥ 180 days (720 epochs): **30% discount**
+```mermaid
+flowchart TD
+    Users -->|"Stake NOVA"| Boardroom[Boardroom]
+    Boardroom -->|"Claim LUME"| ClaimOptions{{"Claim Options"}}
+    ClaimOptions -->|"Pay fee (CRO)"| PSR["Stabilization Reserves increases"]
+    ClaimOptions -->|"Burn 45%"| RewardsReduced["Reduced circulating rewards"]
+    PSR -->|"Peg Stability"| LUMEToken["LUME pegged to CRO"]
+```
 
 ---
 
@@ -76,13 +84,13 @@ All CRO collected from fees reinforce the **Treasury**, ensuring LUME maintains 
 
 ### 💠 LUME Token (Elastic Supply):
 - **Pegged to CRO**
-- **Daily Rebase:** Automatically adjusts supply (up to +1% expansion / -2% contraction) if TWAP deviates from the peg range (0.96–1.08 CRO).
+- **Daily Rebase:** Automatically adjusts supply (up to +1% expansion / -2% contraction) if TWAP deviates from the peg range (0.98–1.18 CRO).
 
 ### 🎖️ NOVA Token (Governance Token):
 **Max Supply:** 21,000 NOVA
 
 **NOVA Allocation:**
-- **50%** Liquidity Providers (11,500 NOVA), distributed over 2 years, AI-governed.
+- **50%** Liquidity Providers (10,500 NOVA), distributed over 2 years, AI-governed.
 - **40%** Treasury (84,000 NOVA), linear vesting over 2 years.
 - **10%** Dev & Marketing (2,100 NOVA), linear vesting over 2 years.
 
