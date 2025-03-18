@@ -60,7 +60,7 @@ All CRO collected from fees reinforce the **Treasury**, ensuring LUME maintains 
 - Stake NOVA continuously ≥ 45 days (180 epochs): **20% discount**
 - Stake NOVA continuously ≥ 180 days (720 epochs): **30% discount**
 ```mermaid
-flowchart LR
+flowchart TD
     Users -->|"Stake NOVA"| Boardroom[Boardroom]
     Boardroom -->|"Claim LUME"| ClaimOptions{{"Claim Options"}}
     ClaimOptions -->|"Pay fee (CRO)"| PSR["Stabilization Reserves increases"]
