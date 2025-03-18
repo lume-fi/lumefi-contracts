@@ -7,11 +7,11 @@ We're thrilled to announce the official launch of **LumeFi**, a next-generation 
 
 ## 📅 Launch Timeline & Key Milestones
 
-| Event                   | Date & Time (UTC)          | Duration |
-|-------------------------|----------------------------|----------|
-| **Genesis Pool (LUME)** | March 20, 2025, 12:00 PM   | 15 days  |
-| **NOVA Farming Pool**   | March 25, 2025, 12:00 PM   | Ongoing  |
-| **Boardroom Launch**    | March 27, 2025, 12:00 PM   | Ongoing  |
+| Event                   | Date & Time (UTC)        | Duration |
+|-------------------------|--------------------------|----------|
+| **Genesis Pool (LUME)** | March 23, 2025, 12:00 PM | 15 days  |
+| **NOVA Farming Pool**   | March 27, 2025, 12:00 PM | Ongoing  |
+| **Boardroom Launch**    | March 30, 2025, 12:00 PM | Ongoing  |
 
 ---
 
@@ -32,7 +32,7 @@ Withdrawal fees collected during Genesis will directly fund the **Treasury**, su
 
 ## 🌾 NOVA Farming Pool
 
-- **Starts:** Tuesday, March 25, 2025 (12:00 PM UTC)
+- **Starts:** Tuesday, March 27, 2025 (12:00 PM UTC)
 - **PSM Fees:** 15% (Week 1), 30% thereafter, adjustable by NOVA governance.
 
 All CRO collected from fees reinforce the **Treasury**, ensuring LUME maintains stable collateral backing.
@@ -41,7 +41,7 @@ All CRO collected from fees reinforce the **Treasury**, ensuring LUME maintains 
 
 ## 🏛️ Boardroom (NOVA Staking & Rewards)
 
-**Launch:** Thursday, March 27, 2025 (12:00 PM UTC)
+**Launch:** Thursday, March 30, 2025 (12:00 PM UTC)
 
 ### ⚙️ Mechanics:
 - **Staking & Unstaking:** Fee-free.
@@ -60,7 +60,7 @@ All CRO collected from fees reinforce the **Treasury**, ensuring LUME maintains 
 - Stake NOVA continuously ≥ 45 days (180 epochs): **20% discount**
 - Stake NOVA continuously ≥ 180 days (720 epochs): **30% discount**
 ```mermaid
-flowchart TD
+flowchart LR
     Users -->|"Stake NOVA"| Boardroom[Boardroom]
     Boardroom -->|"Claim LUME"| ClaimOptions{{"Claim Options"}}
     ClaimOptions -->|"Pay fee (CRO)"| PSR["Stabilization Reserves increases"]
