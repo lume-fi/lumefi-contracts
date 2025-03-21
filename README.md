@@ -17,7 +17,7 @@ We're thrilled to announce the official launch of **LumeFi**, a next-generation 
 
 ## 🎁 Genesis Pool Reward Details
 
-**Duration:** March 20–April 4, 2025 (15 days)
+**Duration:** March 23–April 7, 2025 (15 days)
 
 | Period          | LUME Rewards          | Withdrawal Fee |
 |-----------------|-----------------------|----------------|
@@ -194,8 +194,9 @@ Our vision includes:
 
 - **LumeFi Website:** [lume.finance](https://lume.finance)
 - **FrogsClub:** [frogsclub.xyz](https://www.frogsclub.xyz/)
-- **Twitter:** *(coming soon)*
-- **Telegram & Discord:** *(links coming soon)*
+- **X (Twitter):** https://x.com/LumeonCro
+- **Telegram:** https://t.me/lumefinance
+- **Discord:** https://discord.gg/mRzS4HYqXc
 
 Together with FrogsClub, let's illuminate the future of decentralized finance on Cronos.
 
