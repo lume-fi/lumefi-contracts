@@ -1,7 +1,7 @@
 # 💎 LumeFi: Radiating Stability & Innovation on Cronos
 ## 🚀 Official Launch Announcement by FrogsClub
 
-We're thrilled to announce the official launch of **LumeFi**, a next-generation DeFi protocol on the Cronos network, powered by [**FrogsClub**](https://www.frogsclub.xyz/). LumeFi combines AI-driven governance, elastic supply tokenomics, and robust CRO-backed Treasury management to create a sustainable and rewarding DeFi ecosystem.
+We're thrilled to announce the official launch of **LumeFi**, a next-generation DeFi protocol on the Cronos network, powered by [**FrogsClub**](https://www.frogsclub.xyz/). LumeFi combines AI-driven governance, elastic supply tokenomics, and robust CRO-backed FrogsClub Vault management to create a sustainable and rewarding DeFi ecosystem.
 
 ---
 
@@ -26,7 +26,7 @@ We're thrilled to announce the official launch of **LumeFi**, a next-generation 
 | Days 11–15      | 40,000 LUME           | 1%             |
 | After April 4   | No additional rewards | No fee         |
 
-Withdrawal fees collected during Genesis will directly fund the **Treasury**, supporting LUME’s peg stability.
+Withdrawal fees collected during Genesis will directly fund the **FrogsClub Vault**, supporting LUME’s peg stability.
 
 ---
 
@@ -35,7 +35,7 @@ Withdrawal fees collected during Genesis will directly fund the **Treasury**, su
 - **Starts:** Tuesday, March 27, 2025 (12:00 PM UTC)
 - **PSM Fees:** 15% (Week 1), 30% thereafter, adjustable by NOVA governance.
 
-All CRO collected from fees reinforce the **Treasury**, ensuring LUME maintains stable collateral backing.
+All CRO collected from fees reinforce the **FrogsClub Vault**, ensuring LUME maintains stable collateral backing.
 
 ---
 
@@ -75,8 +75,8 @@ flowchart TD
 - Users deposit **WCRO** and selected LP tokens into the **Genesis Pool** to earn **LUME** tokens.
 - Post-Genesis, users provide liquidity pairs (**LUME/CRO**, **NOVA/CRO**) in the ongoing **NOVA Farming Pool** to earn **NOVA** tokens.
 - **NOVA** can be staked in the **Boardroom** for continuous **LUME** rewards.
-- Boardroom rewards (**LUME**) can be claimed immediately (55% reward, 45% burned) or fully (100%) by paying a CRO fee directed to the **Treasury**.
-- The **Treasury** backs the LUME peg with tangible CRO assets, actively ensuring price stability.
+- Boardroom rewards (**LUME**) can be claimed immediately (55% reward, 45% burned) or fully (100%) by paying a CRO fee directed to the **FrogsClub Vault**.
+- The **FrogsClub Vault** backs the LUME peg with tangible CRO assets, actively ensuring price stability.
 
 ---
 
@@ -91,7 +91,7 @@ flowchart TD
 
 **NOVA Allocation:**
 - **50%** Liquidity Providers (10,500 NOVA), distributed over 2 years, AI-governed.
-- **40%** Treasury (84,000 NOVA), linear vesting over 2 years.
+- **40%** FrogsClub Vault (84,000 NOVA), linear vesting over 2 years.
 - **10%** Dev & Marketing (2,100 NOVA), linear vesting over 2 years.
 
 *(Pie Chart to be added here manually.)*
@@ -99,7 +99,7 @@ flowchart TD
 pie
     title NOVA Allocation
     "Liquidity Providers (50%)": 50
-    "Treasury (Collateral Reserves) (40%)": 40
+    "FrogsClub Vault (40%)": 40
     "Dev & Marketing (10%)": 10
 ```
 
@@ -107,34 +107,34 @@ pie
 
 ## 🚧 Robust Stability Mechanisms: Ensuring Peg Stability
 
-Unlike traditional protocols reliant solely on bonds (which have proven insufficient), LumeFi employs multi-layered mechanisms managed by the FrogsClub Treasury for exceptional stability:
+Unlike traditional protocols reliant solely on bonds (which have proven insufficient), LumeFi employs multi-layered mechanisms managed by the FrogsClub Vault for exceptional stability:
 
 ### 📈 Expansion Phase (LUME above peg):
 
 - **Supply Expansion:** New LUME minted, increasing supply, easing price toward peg.
-- **Treasury Action:** Excess minted LUME strategically sold for CRO, increasing Treasury reserves.
+- **Vault Action:** Excess minted LUME strategically sold for CRO, increasing FrogsClub Vault reserves.
 
 ### 📉 Contraction Phase (LUME below peg):
 
 - **Elastic Rebasing:** Automatic daily negative rebases (up to -2%) reduce supply, driving LUME price upward.
-- **Collateral Redemption:** Users burn LUME to redeem CRO directly from the Treasury, reducing circulating supply.
-- **Treasury Buybacks:** Treasury utilizes accumulated CRO reserves to repurchase undervalued LUME, supporting price recovery.
+- **Collateral Redemption:** Users burn LUME to redeem CRO directly from the Vault, reducing circulating supply.
+- **Vault Buybacks:** Vault utilizes accumulated CRO reserves to repurchase undervalued LUME, supporting price recovery.
 
 ---
 
 ## 📌 LUME Expansion Allocation (When Above Peg)
 
-| Allocation              | Percentage |
-|-------------------------|------------|
-| **Boardroom Rewards**   | 60%        |
-| **Treasury (Collateral)**| 30%       |
-| **Dev & Marketing**     | 10%        |
+| Allocation            | Percentage |
+|-----------------------|------------|
+| **Boardroom Rewards** | 60%        |
+| **FrogsClub Vault**   | 30%        |
+| **Dev & Marketing**   | 10%        |
 
 ```mermaid
 pie
     title LUME Expansion Allocation
     "Boardroom (60%)": 60
-    "Treasury (Collateral Reserves) (30%)": 30
+    "FrogsClub Vault (30%)": 30
     "Dev & Marketing (10%)": 10
 ```
 
@@ -142,10 +142,10 @@ pie
 
 ## 🐸 Revenue Sharing for FrogsClub (FROG holders)
 
-LumeFi is proudly supported by FrogsClub. Revenue generated and accumulated in the Treasury from LumeFi’s operations will be shared passively with **FROG holders**, rewarding the FrogsClub community for their continued support and participation.
+LumeFi is proudly supported by FrogsClub. Revenue generated and accumulated in the FrogsClub Vault from LumeFi’s operations will be shared passively with **FROG holders**, rewarding the FrogsClub community for their continued support and participation.
 
 **How Revenue is Shared:**
-- Profits from Treasury growth and protocol operations distributed periodically.
+- Profits from FrogsClub Vault growth and protocol operations distributed periodically.
 - Distribution mechanics and schedules will be transparently communicated and governed by FrogsClub DAO.
 
 ---
@@ -155,7 +155,7 @@ LumeFi is proudly supported by FrogsClub. Revenue generated and accumulated in t
 LumeFi’s AI-driven governance provides transparent bi-weekly updates on:
 - NOVA reward rate adjustments.
 - Maximum LUME expansion rates.
-- Treasury management decisions.
+- FrogsClub Vault management decisions.
 - Community governance oversight ensures optimal outcomes.
 
 ---
@@ -172,7 +172,7 @@ Based on expert feedback, upcoming enhancements include:
 
 ## 🌟 Why LumeFi Stands Apart
 
-- **Real CRO-backed Treasury:** Robust collateral backing LUME’s peg.
+- **Real CRO-backed FrogsClub Vault:** Robust collateral backing LUME’s peg.
 - **Elastic Supply:** Daily rebases minimize volatility.
 - **AI-Governed Transparency:** Clear bi-weekly governance communications.
 - **Unique Claim & Loyalty Structures:** Innovative incentives for long-term participants.
